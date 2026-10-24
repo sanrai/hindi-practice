@@ -12,13 +12,14 @@ def build(paths):
             manifest=z.read('manifest.json')
             if any(marker in manifest.lower() for marker in [b'http:',b'https:',b'/users/',b'api_key',b'api-key',b'client_secret',b'refresh_token']):raise ValueError('Do not publish private metadata')
             m=json.loads(manifest);pid=m['packId'];assert re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*',pid)
-            audio_dir=ROOT/'audio'/pid;audio_dir.mkdir(parents=True,exist_ok=True)
+            audio_key=pid if m['contentVersion']==1 else f"{pid}-v{m['contentVersion']}-{digest[:12]}"
+            audio_dir=ROOT/'audio'/audio_key;audio_dir.mkdir(parents=True,exist_ok=True)
             for p in m['pairs']:
                 assert p['id'] not in seen;seen.add(p['id'])
                 audio=p['audio'];assert re.fullmatch(r'audio/pair-\d{3,4}\.mp3',audio)
                 content=z.read(audio);assert hashlib.sha256(content).hexdigest()==p['sha256']
                 name=Path(audio).name;dest=audio_dir/name;dest.write_bytes(content)
-                pairs.append(dict(id=p['id'],packId=pid,section=p['section'],english=p['english'],roman=p['roman'],hindi=p['hindi'],englishEndMs=p['englishEndMs'],hindiStartMs=p['hindiStartMs'],durationMs=p['durationMs'],audio=f'audio/{pid}/{name}'))
+                pairs.append(dict(id=p['id'],packId=pid,section=p['section'],english=p['english'],roman=p['roman'],hindi=p['hindi'],englishEndMs=p['englishEndMs'],hindiStartMs=p['hindiStartMs'],durationMs=p['durationMs'],audio=f'audio/{audio_key}/{name}'))
             for l in m['lessons']:
                 if not l['id'].startswith('section-'):continue
                 group=int(l['id'].split('-')[1]);assert group not in groups;groups.add(group)
