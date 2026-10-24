@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "packId": "everyday-verbs-205",
+      "title": "Everyday verbs — 205 practical sentences",
+      "contentVersion": 1,
+      "pairs": 205,
+      "sha256": "77d04a4c95d04cc54585345f0e54b7d674fcda44cecdef047dc3d3c01567099e",
+      "bytes": 6929248,
+      "path": "packs/everyday-verbs-205-v1-77d04a4c95d0.zip"
+    },
+    {
+      "packId": "hinglish-adjectives-60",
+      "title": "Hinglish — Borrowed English Adjectives",
+      "contentVersion": 1,
+      "pairs": 60,
+      "sha256": "d9842b44de0b7366e7656f3dedb2f817067813c57920e335ee87fc7423d53139",
+      "bytes": 2677352,
+      "path": "packs/hinglish-adjectives-60-v1-d9842b44de0b.zip"
+    },
+    {
+      "packId": "hoga-basics",
+      "title": "Hoga — beginner practice",
+      "contentVersion": 1,
+      "pairs": 20,
+      "sha256": "31ef2cedf2c3e8ee0498c5bd4c5018f80d95c4b083994bc438a44ea0debf312d",
+      "bytes": 708412,
+      "path": "packs/hoga-basics-v1-31ef2cedf2c3.zip"
+    },
+    {
+      "packId": "main-habitual-50",
+      "title": "I / main — habitual expressions",
+      "contentVersion": 1,
+      "pairs": 50,
+      "sha256": "d4371593955afbcb93f5dea90649fb0460569f0d23eb72267c3d191fb8c68dbe",
+      "bytes": 2315562,
+      "path": "packs/main-habitual-50-v1-d4371593955a.zip"
+    },
+    {
+      "packId": "this-that-40",
+      "title": "This / that — yeh, woh, is, us",
+      "contentVersion": 1,
+      "pairs": 40,
+      "sha256": "bc800d45cf62bf1b4e62851829957c347b93b0e24922175605ea62749d07dc07",
+      "bytes": 1081447,
+      "path": "packs/this-that-40-v1-bc800d45cf62.zip"
+    },
+    {
+      "packId": "weak-patterns-240",
+      "title": "My weak Hindi patterns — 240 drills",
+      "contentVersion": 1,
+      "pairs": 240,
+      "sha256": "16568e160d975fdecabb3696fffa4c8a592325c564194fe6ec7a784d1c385eb0",
+      "bytes": 8921633,
+      "path": "packs/weak-patterns-240-v1-16568e160d97.zip"
+    }
+  ]
+}
