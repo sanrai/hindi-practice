@@ -20,15 +20,6 @@
       "path": "packs/this-that-40-v1-bc800d45cf62.zip"
     },
     {
-      "packId": "hoga-basics",
-      "title": "Hoga — beginner practice",
-      "contentVersion": 1,
-      "pairs": 20,
-      "sha256": "31ef2cedf2c3e8ee0498c5bd4c5018f80d95c4b083994bc438a44ea0debf312d",
-      "bytes": 708412,
-      "path": "packs/hoga-basics-v1-31ef2cedf2c3.zip"
-    },
-    {
       "packId": "everyday-verbs-205",
       "title": "Everyday verbs — 205 practical sentences",
       "contentVersion": 1,
@@ -36,6 +27,15 @@
       "sha256": "77d04a4c95d04cc54585345f0e54b7d674fcda44cecdef047dc3d3c01567099e",
       "bytes": 6929248,
       "path": "packs/everyday-verbs-205-v1-77d04a4c95d0.zip"
+    },
+    {
+      "packId": "hoga-basics",
+      "title": "Hoga — beginner practice",
+      "contentVersion": 1,
+      "pairs": 20,
+      "sha256": "31ef2cedf2c3e8ee0498c5bd4c5018f80d95c4b083994bc438a44ea0debf312d",
+      "bytes": 708412,
+      "path": "packs/hoga-basics-v1-31ef2cedf2c3.zip"
     },
     {
       "packId": "weak-patterns-240",
@@ -54,6 +54,15 @@
       "sha256": "81f6f67193c017af6297e730defa86cc0ceca48087f9ee060cbc79e6edf70dda",
       "bytes": 1940816,
       "path": "packs/hinglish-adjectives-60-v2-81f6f67193c0.zip"
+    },
+    {
+      "packId": "everyday-vocabulary-200",
+      "title": "Everyday vocabulary — 200 easy recall prompts",
+      "contentVersion": 1,
+      "pairs": 200,
+      "sha256": "f080e2aefb403c5e1646a6ee467372d4882497f293ebfa4c8c0037ec3249d060",
+      "bytes": 5541412,
+      "path": "packs/everyday-vocabulary-200-v1-f080e2aefb40.zip"
     }
   ]
 }
