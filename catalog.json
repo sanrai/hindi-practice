@@ -67,11 +67,11 @@
     {
       "packId": "past-connections-64",
       "title": "People & connections — past tense (64)",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "pairs": 64,
-      "sha256": "4484dafd7f11aea933f9325ede225d5a48bee0b9e0cd39acbb45dfd25364432f",
-      "bytes": 2255017,
-      "path": "packs/past-connections-64-v1-4484dafd7f11.zip"
+      "sha256": "63721d8ae3488435e7fbf4d71323012ddd9c30601323e120060799d1ff811021",
+      "bytes": 2290126,
+      "path": "packs/past-connections-64-v2-63721d8ae348.zip"
     }
   ]
 }
