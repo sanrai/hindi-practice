@@ -72,6 +72,15 @@
       "sha256": "63721d8ae3488435e7fbf4d71323012ddd9c30601323e120060799d1ff811021",
       "bytes": 2290126,
       "path": "packs/past-connections-64-v2-63721d8ae348.zip"
+    },
+    {
+      "packId": "got-scenarios-60",
+      "title": "I got… — everyday situations (60)",
+      "contentVersion": 1,
+      "pairs": 60,
+      "sha256": "b10983c7dd2e900137c040f6f4cb8c2bd7e1969c25da5052cb3f7848ffaa35b5",
+      "bytes": 1880426,
+      "path": "packs/got-scenarios-60-v1-b10983c7dd2e.zip"
     }
   ]
 }
