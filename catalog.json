@@ -81,6 +81,15 @@
       "sha256": "b10983c7dd2e900137c040f6f4cb8c2bd7e1969c25da5052cb3f7848ffaa35b5",
       "bytes": 1880426,
       "path": "packs/got-scenarios-60-v1-b10983c7dd2e.zip"
+    },
+    {
+      "packId": "want-basics-21",
+      "title": "Want — things and actions (21)",
+      "contentVersion": 1,
+      "pairs": 21,
+      "sha256": "5146fa7a2e4920cf758b6ac3344ef0a2857957441e9938b0332b10a819eec788",
+      "bytes": 761196,
+      "path": "packs/want-basics-21-v1-5146fa7a2e49.zip"
     }
   ]
 }
